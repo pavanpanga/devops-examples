@@ -13,7 +13,5 @@ icon: https://transfer.legal/wp-content/uploads/2016/12/logo-swagger.png
 source:
   - https://github.com/cetic/helm-chart
 maintainers:
-  - name: SellamiRami
-    email: rami.sellami@cetic.be
-    url: https://github.com/SellamiRami
-  - name: alexnuttinck
+  - name: Galaxy team
+    email: glcs.team-galaxy@hpe.com
