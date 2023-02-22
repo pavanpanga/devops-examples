@@ -3,6 +3,7 @@ apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
 metadata:
   name: {{ include "swagger-ui.fullname" . }}
+  namespace: default
   labels:
     app: {{ template "swagger-ui.name" . }}
     chart: {{ template "swagger-ui.chart" . }}
