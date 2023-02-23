@@ -48,8 +48,12 @@ spec:
           - name: SWAGGER_JSON
             value: /api-doc/openapi.json
           livenessProbe:
-            tcpSocket:
-              port: {{ .Values.livenessProbe.httpGet.port }}
+            httpGet:
+              path: /
+              port: 8080
+            initialDelaySeconds: 60
+            timeoutSeconds: 10
+            periodSeconds: 60
           ports:
           - name: http
             containerPort: 8080
