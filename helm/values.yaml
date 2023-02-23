@@ -21,7 +21,7 @@ swaggerui :
 ## Configure the deployment resource
 ##
 deployment:
-  replicas: 1
+  replicas: 2
   jsonNoCheckCertificate: false
   extraEnv:
   # - name: BASE_URL
