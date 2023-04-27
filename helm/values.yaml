@@ -1,4 +1,5 @@
 ---
+namespace: swagger-test
 ## Set default image, imageTag, and imagePullPolicy. mode is used to indicate the
 ##
 image:
